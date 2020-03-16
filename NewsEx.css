@@ -1,0 +1,260 @@
+
+h1 {
+	margin: 1em 0 0.5em 0;
+	color: #343434 !important;
+	font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+  font-size: 60px;
+  text-align: center;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+}
+.twoArt{
+  display: flex;
+  margin-left: 10%;
+  text-align: center;
+}
+h3{
+  font-family: 'Horev', serif;
+  font-size: 40px;
+}
+#Art{
+  height: wrap;
+  width: 350px;
+  padding: 10px;
+  border: 4px solid rgb(243, 81, 52);
+  margin: 15px;
+  box-shadow: 10px 10px 5px #aaaaaa;
+  opacity: 0.75;
+  
+}
+.twoArt :hover{
+  background-color:lightblue;
+
+}
+#lastArt{
+  margin-right: 550px;
+
+}
+
+/*Tool bar */
+#toolbar {
+  list-style-type: none;
+  margin: 0;
+  float: right;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#tB {
+  float: right;
+}
+
+#tB a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#tB a:hover {
+  background-color:lightblue;
+}
+
+h2{
+  margin-top:4px;
+}
+.pic{
+    margin: 20px;
+    border: 5px solid #FFF;
+}
+
+  body {
+    font-family: 'Lato', sans-serif;
+    background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-3/background.jpg');
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
+  }
+  .textDealWith{
+    font-family: 'Orienta';
+    text-align: center;
+  }
+  #dealWith{
+    text-align: center;
+  }
+  #headerDW{
+    font-size: 75px;
+    text-align: center;
+    color: rgb(243, 72, 60);
+    text-shadow: black;
+    font-family: 'KeterYG', serif;
+    text-decoration: underline ;
+    text-shadow: 2px 2px 4px #000000;
+
+  }
+  #ulDW{
+    margin-right: 350px;
+    text-align: center;
+    font-family: 'Felix007', serif;
+    font-size :20px;
+    margin-right: 650px;
+    width: 550px;
+
+  }
+li{
+  text-align: right;
+}
+
+  p{
+    font-size: 25px;
+    font-family: 'Felix007', serif;
+    text-align: center;
+    border: 3px;
+  }
+  *{
+    box-sizing:border-box;
+  }
+  footer{ height:100px; background:lightblue; 
+        margin: 5px auto 10px auto;
+    text-align: center;}
+  .phone {
+    margin-right: 10%;
+    display: inline-flex;
+  } 
+  .adress{
+    margin-left: 10%;
+    display: inline-flex;
+  }
+  #apPh{
+    font-size: 10px !important; 
+  }
+.phGrid{
+  display: grid;
+}
+.phGrid{
+  display: grid;
+
+}
+.secondPar{
+  text-align: center;
+  display: flex
+}
+.contact{
+  text-align: top;
+}
+p{
+  text-align: center;
+  display: inline-flex;
+  width: 600px;
+}
+footer{
+  height: 150px;
+  margin-top: 400px;
+}
+/* fade animation for loading page using @keyframes*/
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+
+
+@keyframes fadeIn{
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+/* adding animation for the spinning corona img = using  @keyframes*/
+body {
+  padding: 10px 0 0 0;
+}
+
+#loading {
+  height: 75px;
+  -webkit-animation: rotation 20s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+.headLine{
+  margin-right: 700px;
+  display: flex;
+}
+.title{
+  margin-top: 20px;
+  text-decoration: underline overline ;
+  text-decoration-color: rgb(243, 81, 52);
+}
+#newsTitle{
+  margin-right: 280px;
+  font-size: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/*button link to Walla-corona*/
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 20px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-right: 850px;
+  cursor: pointer;
+}
+h4{
+  color: #777;
+}
